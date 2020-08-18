@@ -1,9 +1,11 @@
 ---
-title: "Introduction"
+title: "Introduction to R"
 output: html_document
 ---
 
-## Introduction to R 
+## R as a calculator
+
+
 
 ```{r}
 print('hello')
