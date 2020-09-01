@@ -4,6 +4,13 @@ output: ioslides_presentation
 author: Laura Melissa Guzman and Juan Zuloaga
 ---
 
+```{r echo = FALSE, message=FALSE}
+library(ggplot2)
+library(cowplot)
+library(knitr)    
+library(png)
+```
+
 ## Overview
 
 This is a series of R, statistics and conservation workshops.
@@ -28,19 +35,77 @@ RStudio is an integrated development environment (IDE) for R -- A nice place to 
 - R is the most common software used for statistical analyses
 - R has an amazing community
 
+
 ## What can I do with R?
 
+- From simple graphs
+- Interactive web apps
+- Documents/ notebooks
+- Spatial analysis
+- Statistical analysis 
+- Much more!
 
 
+## R packages
+
+R allows you to use packages (functions developed by others). By including these packages, you can expand the capabilities of R.
+
+```{r echo = FALSE}
+packages_path <- "pics/packages.jpg"
+include_graphics(packages_path, dpi  = 100)
+```
 
 
 ## You can use R to produce really cool graphs!
 
-```{r echo = FALSE, message=FALSE}
-library(ggplot2)
-library(cowplot)
-```
-
-```{r fig.height=3, fig.width=4}
+```{r fig.height=3, fig.width=4, tidy=TRUE, tidy.opts=list(width.cutoff=60)}
 ggplot(data = mtcars, aes(x = disp, y = mpg, colour = factor(gear))) + geom_point() + theme_cowplot() + xlab("Displacement (cu.in.)") + ylab("Miles/(US) gallon") 
 ```
+
+## Shiny apps
+
+[covid tracker](https://shiny.rstudio.com/gallery/covid19-tracker.html)
+
+```{r echo = FALSE}
+shiny_path <- "pics/shiny.png"
+include_graphics(shiny_path)
+```
+
+## RMarkdown
+
+- [Books!](https://bookdown.org/yihui/bookdown/)
+- Presentations! (like this one)
+- [Documents](http://timelyportfolio.github.io/rCharts_nyt_home_price/)
+- Websites
+
+## Simulations
+
+
+
+## Functions
+
+R has many built in functions or you can load many more using packages. 
+
+You can also write your own. They are specially useful if you need to repeat the same code multiple times. 
+
+```{r eval=FALSE}
+
+my_function <- function(a, b){
+  a*b
+}
+
+```
+
+
+## Statistics 
+
+
+
+## Spatial analysis
+
+
+## Interaction between R and other softwares
+
+- [Rcpp](http://adv-r.had.co.nz/Rcpp.html)
+- [Excel](https://readxl.tidyverse.org)
+
