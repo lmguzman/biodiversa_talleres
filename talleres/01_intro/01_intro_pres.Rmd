@@ -50,6 +50,18 @@ RStudio is an integrated development environment (IDE) for R -- A nice place to 
 
 R allows you to use packages (functions developed by others). By including these packages, you can expand the capabilities of R.
 
+In ecology the following packages are very useful:
+
+- Community ecology ([vegan](https://cran.r-project.org/web/packages/vegan/vignettes/intro-vegan.pdf)) 
+- Spatial analysis ([raster](https://cran.r-project.org/web/packages/raster/raster.pdf), [sf](https://cran.r-project.org/web/packages/sf/sf.pdf), [sp](https://cran.r-project.org/web/packages/sp/sp.pdf), [rgdal](https://cran.r-project.org/web/packages/rgdal/rgdal.pdf), [rgeos](https://cran.rstudio.com/web/packages/rgeos/rgeos.pdf))
+- Phylogenetic analysis ([geiger](https://cran.r-project.org/web/packages/geiger/geiger.pdf), [ape](https://cran.r-project.org/web/packages/ape/ape.pdf), [phytools](https://cran.r-project.org/web/packages/phytools/phytools.pdf))
+- Network analysis ([igraph](https://igraph.org/r/), [network](https://cran.r-project.org/web/packages/network/vignettes/networkVignette.pdf))
+- Landscape ecology ([landscapemetrics](https://r-spatialecology.github.io/landscapemetrics/))
+
+## R packages
+
+Packages from [tidyverse](https://www.tidyverse.org) are particularly useful for data cleaning and wrangling.
+
 ```{r echo = FALSE}
 packages_path <- "pics/packages.jpg"
 include_graphics(packages_path, dpi  = 100)
@@ -74,13 +86,49 @@ include_graphics(shiny_path)
 ## RMarkdown
 
 - [Books!](https://bookdown.org/yihui/bookdown/)
-- Presentations! (like this one)
+- [Presentations](http://svmiller.com/rmarkdown-example.pdf)! (like this one)
 - [Documents](http://timelyportfolio.github.io/rCharts_nyt_home_price/)
-- Websites
+- [Websites](https://rmarkdown.rstudio.com)
 
 ## Simulations
 
+Mathematics are integral to ecology. You may have learned about Lotka-Volterra equations. These equations describe the dynamics of a predator and a prey. 
 
+$$
+\frac{dx}{dt} = Ax - Bxy
+\\
+\frac{dy}{dt} = Cxy - Dy
+$$
+
+## Simulations
+
+We can solve these differential equations in R!
+
+```{r}
+library(deSolve)
+parameters<-c(A=1,B=0.2,C=0.08,D=0.5) 
+state<-c(x=5,y=2)
+
+LV<-function(t,state,parameters){ with(as.list(c(state,parameters)),{
+  
+  ## these are identical to the equations you just saw
+  dxOVERdt<-(A*x-B*x*y) 
+  dyOVERdt<-(C*y*x-D*y) 
+  return(list(c(dxOVERdt,dyOVERdt)))
+}) }
+
+times<-seq(0, 100,by = 0.01) 
+out<-ode(y=state, times=times, func=LV, parms=parameters)
+```
+
+## Simulations
+
+And plot the dynamics of these populations.
+
+```{r echo = FALSE}
+matplot(x=out[,1],y=out[,c(2,3)],pch=20,xlab="Time",ylab="Population Density", main="Lotka- Volterra Simulation",col=c("darkgreen","darkblue"))
+legend(x="topleft",legend=c("Prey","Predator"), col=c("darkgreen","darkblue"),lwd=5)
+```
 
 ## Functions
 
@@ -104,8 +152,13 @@ my_function <- function(a, b){
 ## Spatial analysis
 
 
+For more info see this [book](https://cengel.github.io/R-spatial/)!
+
 ## Interaction between R and other softwares
 
 - [Rcpp](http://adv-r.had.co.nz/Rcpp.html)
 - [Excel](https://readxl.tidyverse.org)
+- [GIS](https://www.jessesadler.com/post/gis-with-r-intro/)
+- [Web scrapping/ API](https://stat545.com/supporting-docs/webdata01_slides.html#1)
+
 
