@@ -1,0 +1,36 @@
+---
+title: "Reading data and intro to plotting"
+author: Laura Melissa Guzman and Juan Zuloaga
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+## Making your own csv file
+
+A csv, stands for comma separated values, is a type of file which can be easily read by R. Most likely, the data you have collected will be in an Exel format. You can make csv's from your Excel files. 
+
+*note, Juan tu tienes Excel? me ayudas a hacer la figurita en excel?*
+
+
+## Reading in data
+
+The following dataset contains information on Australia vertebrates. Some of the information it contains is species name, body size, and elevational range.
+
+Before loading this datset, which is in csv format, click on the data called  "australian_vertebrates.csv" and then click on *View File*. This will allow you to see how the file is structured. On the first row you will see the column names and you will see that the values between each column is separated by a comma. 
+
+Now we are ready to read in the data. 
+
+Note, data origin http://esapubs.org/archive/ecol/E091/181/default.htm#data
+
+```{r}
+austrlian_verts <- read.csv("spp_data.csv")
+
+austrlian_verts
+
+```
+
+
+

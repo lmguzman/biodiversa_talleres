@@ -1,10 +1,12 @@
 ---
 title: "Introduction to R"
 author: Laura Melissa Guzman and Juan Zuloaga
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
-
-# add table of contents
 
 ## Before you start
 
@@ -208,7 +210,7 @@ So, an object in R is a structure having some attributes (data type) and methods
 
 </div>
 
-Let's talk about the first part, the **data type**. For instance, the most basic data type in R is a **scalar** which refers to an atomic quantity that can hold only one value.
+Let's talk about the first part, the **data type**. For instance, the most basic data type in R is a **vector** which refers to an atomic quantity that can hold only one value.
 
 
 ```{r}
@@ -218,13 +220,13 @@ x
 
 ```
 
-You can use scalars to build more complex ones.
+You can use vectors to build more complex ones.
 
 
 ---
 
 
-Let's see types of scalars (modes: numeric, logic and character)
+Let's see types of vectors (modes: numeric, logic and character)
 
 
 **Number**
@@ -469,30 +471,6 @@ even_numbers
 
 ```
 
-
----
-
-**Matrix**
-
-
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
-A matrix is a collection of data elements (numeric mode) arranged in a two-dimensional layout (rows and columns).
-
-</div>
-
----
-
-**Data frames**
-
-
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
-A data frame is a list of vectors of equal length (any mode).
-
-</div>
-
----
-
-**Lists**
 
 
 
