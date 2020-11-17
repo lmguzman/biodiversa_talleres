@@ -99,3 +99,21 @@ Another option for this combination of variables is a box plot. A box plot shows
 ```{r warning=FALSE}
 ggplot(data = australian_verts) + geom_boxplot(aes(x = TAXA, y = max_lifespan)) 
 ```
+
+# Do larger vertebrates have a longer life span?
+
+In this case we have two continous variables, the mass of the vertebrate and the life span. Here we can use scatter plots.
+
+```{r warning=FALSE}
+ggplot(data = australian_verts) + geom_point(aes(x = mass, y = max_lifespan)) 
+```
+
+
+As you can see, some vertebrates have a very large mass, up to 40kg!
+
+A better way to visualize this data is to log transform the mass data. Log transformations allow us to visualize data that spans orders of magnitude.
+
+```{r warning=FALSE}
+ggplot(data = australian_verts) + geom_point(aes(x = mass, y = max_lifespan)) + scale_x_log10()
+```
+
