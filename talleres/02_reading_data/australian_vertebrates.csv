@@ -1,0 +1,243 @@
+"TAXA","SPECIES","Common_name","mass","color_dimorphism","max_lifespan","endemic"
+"BIRD","Acanthiza katherina","Mountain Thornbill","8.9","0","15",1
+"BIRD","Acanthorhynchus tenuirostris","Eastern Spinebill","11","1","16",0
+"BIRD","Accipiter novaehollandiae","Grey Goshawk","515","0","20",0
+"BIRD","Ailuroedus melanotis","Spotted Catbird","166","0","20",0
+"BIRD","Alcedo azurea","Azure Kingfisher","33.8","0","21",0
+"BIRD","Alcedo pusilla","Little Kingfisher","14.5","0","21",0
+"BIRD","Alectura lathami","Australian Brush Turkey","2330","0","13",0
+"BIRD","Alisterus scapularis","Australian King Parrot","212","1","27",0
+"BIRD","Aplonis metallica","Metallic Starling","56","0",".",0
+"BIRD","Arses kaupi","Pied Monarch","12.6","1","4",1
+"BIRD","Artamus leucorynchus","White-breasted Woodswallow","41","0","9",0
+"BIRD","Cacatua galerita","Sulphur-crested Cockatoo","789.5","0","57",0
+"BIRD","Cacomantis castaneiventris","Chestnut-breasted Cuckoo","29.5","0","6",0
+"BIRD","Cacomantis flabelliformis","Fan-tailed Cuckoo","49.9","1","6",0
+"BIRD","Cacomantis variolosus","Brush Cuckoo","32.9","1","6",0
+"BIRD","Casuarius casuarius","Southern Cassowary","41375","0","40",0
+"BIRD","Chalcophaps indica","Emerald Dove","111","1","12",0
+"BIRD","Chrysococcyx lucidus","Shining Bronze-Cuckoo (Golden)","23.9","0","6",0
+"BIRD","Chrysococcyx minutillus","Little Bronze-Cuckoo","18.6","0","6",0
+"BIRD","Chrysococcyx russatus","Gould's Bronze-Cuckoo","18.7","1","6",0
+"BIRD","Collocalia spodiopygius","White-rumped Swiftlet","15","0","12",0
+"BIRD","Colluricincla boweri","Bowers Shrike-Thrush","39.1","0","7",1
+"BIRD","Colluricincla megarhyncha","Little Shrike-Thrush","33","0","17",0
+"BIRD","Columba leucomela","White-headed Pigeon","420","0","15",0
+"BIRD","Coracina lineata","Barred Cuckoo-Shrike","100","0","9",0
+"BIRD","Cormobates leucophaeus","White-throated Treecreeper","16.9","1","12",0
+"BIRD","Cracticus quoyi","Black Butcherbird","156","0","6",0
+"BIRD","Cuculus saturatus","Oriental Cuckoo","94.8","1","13",0
+"BIRD","Cyclopsitta diophthalma","Double-eyed Fig-Parrot","41","1","15",0
+"BIRD","Dicaeum hirundinaceum","Mistletoebird","8.5","1","9",0
+"BIRD","Dicrurus bracteatus","Spangled Drongo","79.6","0","8",0
+"BIRD","Ducula bicolor","Pied Imperial Pigeon","450","0","14",0
+"BIRD","Erythrura trichroa","Blue-faced Parrot-Finch","13.1","1","3",0
+"BIRD","Eudynamys scolopacea","Common Koel","226.5","1","10",0
+"BIRD","Gerygone magnirostris","Large-billed Gerygone","7","0","4",0
+"BIRD","Gerygone mouki","Brown Gerygone","5.5","0","9",0
+"BIRD","Gerygone palpebrosa","Fairy Gerygone","7.4","1","4",0
+"BIRD","Gerygone palpebrosa","Fairy Gerygone","7.5","1","4",0
+"BIRD","Heteromyias albispecularis","Grey-headed Robin","35.6","0",".",0
+"BIRD","Hirundapus caudacutus","White-throated Needletail","93.2","0","20",0
+"BIRD","Lalage leucomela","Varied Triller","32.1","1","5",0
+"BIRD","Lichenostomus frenatus","Bridled Honeyeater","36.4","0","5",1
+"BIRD","Lopholaimus antarcticus","Topknot Pigeon","500","0",".",0
+"BIRD","Machaerirhynchus flaviventer","Yellow-breasted Boatbill","9.7","0","12",0
+"BIRD","Macropygia amboinensis","Brown Cuckoo-Dove","237","1","15",0
+"BIRD","Megapodius reinwardt","Orange-footed Scrubfowl","1015","0",".",0
+"BIRD","Meliphaga gracilis","Graceful Honeyeater","15","0","4",0
+"BIRD","Meliphaga lewinii","Lewin's Honeyeater","32.6","0","16",0
+"BIRD","Meliphaga notata","Yellow-spotted Honeyeater","26","0","9",0
+"BIRD","Merops ornatus","Rainbow Bee-eater","28","1","7",0
+"BIRD","Monarcha frater","Black-winged Monarch","19","0","12",0
+"BIRD","Monarcha leucotis","White-eared Monarch","12.1","0","12",0
+"BIRD","Monarcha melanopsis","Black-faced Monarch","22.6","0","6",0
+"BIRD","Monarcha trivirgatus","Spectacled Monarch","13","0","12",0
+"BIRD","Myzomela obscura","Dusky Honeyeater","13","0","12",0
+"BIRD","Myzomela sanguinolenta","Scarlet Honeyeater","7.8","1","10",0
+"BIRD","Ninox novaeseelandiae","Southern Boobook","221","0","13",0
+"BIRD","Ninox rufa","Rufous Owl","1100","0","6",0
+"BIRD","Oreoscopus gutturalis","Fernwren","16.6","0","4",1
+"BIRD","Oriolus flavocinctus","Yellow Oriole","100","0","15",0
+"BIRD","Oriolus sagittatus","Olive-backed Oriole","95","0","15",0
+"BIRD","Orthonyx spaldingii","Chowchilla","156.5","1","14",1
+"BIRD","Pachycephala pectoralis","Golden Whistler","23.2","1","18",0
+"BIRD","Pachycephala simplex","Grey Whistler","17.5","0","10",0
+"BIRD","Philemon buceroides","Helmeted Friarbird","120","0","11",0
+"BIRD","Pitta versicolor","Noisy Pitta","95","0","11",0
+"BIRD","Platycercus elegans","Crimson Rosella","107.5","0","15",0
+"BIRD","Podargus papuensis","Papuan Frogmouth","380","1","14",0
+"BIRD","Poecilodryas superciliosa","White-browed Robin","17.5","0","9",0
+"BIRD","Prionodura newtoniana","Golden Bowerbird","75","1","21",1
+"BIRD","Psophodes olivaceus","Eastern Whipbird","62.8","1","12",0
+"BIRD","Ptilinopus magnificus","Wompoo Fruit-Dove","448","0","15",0
+"BIRD","Ptilinopus regina","Rose-crowned Fruit-Dove","102.1","0","15",0
+"BIRD","Ptilinopus superbus","Superb Fruit-Dove","110","1","15",0
+"BIRD","Ptilonorhynchus violaceus","Satin Bowerbird","180","1","24",0
+"BIRD","Ptiloris victoriae","Victoria's Riflebird","95","1","9",1
+"BIRD","Rallina tricolor","Red-necked Crake","210","0","11",0
+"BIRD","Ramsayornis fasciatus","Bar-breasted Honeyeater","12.5","0",".",0
+"BIRD","Rhipidura fuliginosa","Grey Fantail","8.6","0","9",0
+"BIRD","Rhipidura rufifrons","Rufous Fantail","10","0","9",0
+"BIRD","Scenopoeetes dentirostris","Tooth-billed Bowerbird","170","0","16",1
+"BIRD","Scythrops novaehollandiae","Channel-billed Cuckoo","684.1","0","8",0
+"BIRD","Sericornis citreogularis","Yellow-throated Scrubwren","16.2","1","17",0
+"BIRD","Sericornis frontalis","White-browed Scrubwren","12.3","1","18",0
+"BIRD","Sericornis keri","Atherton Scrubwren","11.9","0","17",1
+"BIRD","Sericornis magnirostris","Large-billed Scrubwren","9.7","0","16",0
+"BIRD","Sphecotheres viridis","Figbird","120","1","17",0
+"BIRD","Strepera graculina","Pied Currawong","240","0","25",0
+"BIRD","Tanysiptera sylvia","Buff-breasted Paradise-Kingfisher","50","1","9",0
+"BIRD","Tregellasia capito","Pale-yellow Robin","14","0","13",0
+"BIRD","Trichoglossus chlorolepidotus","Scaly-breasted Lorikeet","86.9","0","16",0
+"BIRD","Trichoglossus haematodus","Rainbow Lorikeet","130","0","16",0
+"BIRD","Tyto multipunctata","Lesser Sooty Owl","495","0","34",1
+"BIRD","Xanthotis macleayana","Macleay's Honeyeater","32.8","0","8",1
+"BIRD","Zoothera heinei","Russet-tailed Thrush","85","0","8",0
+"BIRD","Zoothera lunulata","Bassian Thrush","100","0","8",0
+"BIRD","Zosterops lateralis","Silvereye","11.4","0","19",0
+"FROG","Austrochaperina fryi","Cricket Chirper","2.4","0",".",1
+"FROG","Austrochaperina pluvialis","White-browed Chirper","1.1","0",".",1
+"FROG","Austrochaperina robusta","Pealing Chirper","1.7","0",".",1
+"FROG","Bufo marinus","Cane Toad",".",".","25",0
+"FROG","Cophixalus aenigma","Tapping Nursery-Frog","0.6","0",".",1
+"FROG","Cophixalus bombiens","Windsor Nursery-Frog","0.3","0",".",1
+"FROG","Cophixalus concinnus","Beautiful Nursery-Frog","1.2","0",".",1
+"FROG","Cophixalus exiguus","Bloomfield Nursery-Frog","0.4","0",".",1
+"FROG","Cophixalus hosmeri","Pipping Nursery-Frog","0.3","0",".",1
+"FROG","Cophixalus infacetus","Buzzing Nursery-Frog","0.5","0",".",1
+"FROG","Cophixalus mcdonaldi","Southern Nursery-Frog","1.1",".",".",1
+"FROG","Cophixalus monticola","Mountain Top Nursery-Frog","0.6","0",".",1
+"FROG","Cophixalus neglectus","Tangerine Nursery-Frog","1.8","0",".",1
+"FROG","Cophixalus ornatus","Common Nursery-Frog","1","0","14",1
+"FROG","Limnodynastes peronii","Striped Marshfrog","20","0",".",0
+"FROG","Litoria fallax","Eastern Sedgefrog","0.9","0",".",0
+"FROG","Litoria genimaculata","Green-eyed Treefrog","15","0","16",1
+"FROG","Litoria infrafrenata","White-lipped Treefrog",".",".",".",0
+"FROG","Litoria jungguy",".","11.1","0","11",1
+"FROG","Litoria lorica","Armoured Mistfrog",".",".",".",1
+"FROG","Litoria nannotis","Waterfall Frog","10.1","0",".",1
+"FROG","Litoria nyakalensis","Mountain Mistfrog",".",".",".",1
+"FROG","Litoria revelata","Whirring Treefrog",".",".",".",0
+"FROG","Litoria rheocola","Common Mistfrog","2.3","0",".",1
+"FROG","Litoria xanthomera","Northern Orange-eyed Treefrog","6.9","0",".",1
+"FROG","Mixophyes Carbinensis",".","38.6","0",".",1
+"FROG","Mixophyes Coggeri",".","76","0",".",1
+"FROG","Mixophyes schevilli","Northern Barred Frog","53.1","0","16",1
+"FROG","Nyctimystes dayi","Australian Lace-lid","6.4","0","11",1
+"FROG","Rana daemeli","Australian Bullfrog","7.8","0","8",0
+"FROG","Taudactylus acutirostris","Sharp-snouted Dayfrog","1.1",".",".",1
+"FROG","Taudactylus rheophilus","Northern Tinkerfrog","1.8","0",".",1
+"MAMM","Antechinus adustus","Rusty Antechinus","30.5","0","2",1
+"MAMM","Antechinus flavipes","Yellow-footed Antechinus","45","0","4",0
+"MAMM","Antechinus godmani","Atherton Antechinus","76.5","0","2",1
+"MAMM","Canis lupus dingo","Dingo","18000","0","14",0
+"MAMM","Cercartetus caudatus","Long-tailed Pygmy Possum","30","0","10",0
+"MAMM","Dactylopsila trivirgata","Striped Possum","441.5","0","10",0
+"MAMM","Dasyurus maculatus","Spotted-tailed Quoll","5500",".","7",0
+"MAMM","Dendrolagus bennettianus","Bennett's Tree-kangaroo","12150",".","20",1
+"MAMM","Dendrolagus lumholtzi","Lumholtz's Tree-kangaroo","6750","0","20",1
+"MAMM","Hemibelideus lemuroides","Lemuroid Ringtail Possum","952.5","0","5",1
+"MAMM","Hipposideros cervinus","Fawn leafnosed bat","9",".","12",0
+"MAMM","Hipposideros semoni","Semon's leafnosed bat","16",".","12",0
+"MAMM","Hypsiprymnodon moschatus","Musky Rat-kangaroo","520","0","6",1
+"MAMM","Kerivoula papuensis","Golden-tipped bat","6",".","3",0
+"MAMM","Macroglossus minimus","Northern blossom bat","13",".",".",0
+"MAMM","Melomys cervinipes","Fawn-footed Melomys","65.5","0","5",0
+"MAMM","Miniopterus australis","Little bentwing bat","7.5",".","20",0
+"MAMM","Miniopterus schreibersii","Common bentwing bat","17",".","22",0
+"MAMM","Murina florium","Flute-nosed bat","8",".",".",0
+"MAMM","Myotis adversus","Large-footed myotis","10",".","20",0
+"MAMM","Nyctimene robinsoni","Eastern tubenosed bat","49.9",".",".",0
+"MAMM","Nyctophilus bifax","Northern longeared bat","12",".","4",0
+"MAMM","Nyctophilus gouldi","Gould's longeared bat","11",".","4",0
+"MAMM","Perameles nasuta","Long-nosed Bandicoot","975","0","7",0
+"MAMM","Pogonomys mollipilosus","Prehensile-tailed Rat","63","0","3",0
+"MAMM","Pseudochirops archeri","Green Ringtail Possum","1091.5","0","10",1
+"MAMM","Pseudochirulus cinereus","Daintree River Ringtail Possum","1000","0","10",1
+"MAMM","Pseudochirulus herbertensis","Herbert River Ringtail Possum","1113.5","0","10",1
+"MAMM","Pteropus alecto","Black flying-fox","600",".","20",0
+"MAMM","Pteropus conspicillatus","Spectacled flying-fox","750",".","20",0
+"MAMM","Rattus fuscipes","Bush Rat","122",".","5",0
+"MAMM","Rattus leucopus","Cape York Rat","164",".","4",0
+"MAMM","Rhinolophus megaphyllus","Eastern horseshoe bat","10.5",".","25",0
+"MAMM","Scoteanax rueppellii","Greater broadnosed bat","30",".",".",0
+"MAMM","Sminthopsis leucopus","White-footed Dunnart","25","0","2",0
+"MAMM","Syconycteris australis","Common blossom bat","19",".",".",0
+"MAMM","Thylogale stigmatica","Red-legged Pademelon","4600","0","10",0
+"MAMM","Trichosurus vulpecula j.","Coppery Brushtail Possum","1700","0","16",1
+"MAMM","Uromys caudimaculatus","Giant White-tailed Rat","646","0","16",0
+"MAMM","Uromys hadrourus","Masked White-tailed Rat","194",".",".",1
+"MAMM","Vespadelus pumilus","Eastern forest bat","4.4",".","5",0
+"MONO","Ornithorhynchus anatinus","Platypus","861","0","22.6",0
+"REPT","Anomalopus gowi",".",".",".",".",0
+"REPT","Boiga irregularis","Brown Tree Snake","285","0","13",0
+"REPT","Cacophis churchilli",".",".",".",".",1
+"REPT","Cacophis squamulosus","Golden Crowned Snake",".",".",".",0
+"REPT","Calyptotis thorntonensis","Thornton Peak Skink",".",".",".",1
+"REPT","Carlia aeratus",".",".",".",".",0
+"REPT","Carlia laevis",".","0.7",".",".",1
+"REPT","Carlia rhomboidalis",".",".",".",".",0
+"REPT","Carlia rubrigularis","Northern Red-throated Skink","3.3","1",".",1
+"REPT","Carlia tanneri",".",".",".",".",0
+"REPT","Carphodactylus laevis","Chameleon Gecko","21.9","0",".",1
+"REPT","Coeranoscincus frontalis",".","201.5","0",".",1
+"REPT","Crocodylus porosus","Estuarine Crocodile",".",".","42",0
+"REPT","Cryptophis nigrescens","Eastern Smalleyed Snake","53.1","0",".",0
+"REPT","Cyclodomorphus gerrardii","Pink-tongued Lizard","136","0","13",0
+"REPT","Delma labialis","Striped-tailed Delma",".",".",".",0
+"REPT","Delma mitella",".",".",".",".",1
+"REPT","Demansia psammophis","Yellow-faced Whipsnake","53.5","0",".",0
+"REPT","Demansia torquata","Collared Whipsnake",".",".",".",0
+"REPT","Dendrelaphis calligastra","Northern Tree Snake","200","0",".",0
+"REPT","Dendrelaphis punctulata","Common Tree Snake","180","0",".",0
+"REPT","Egernia frerei","Major Skink","97.2","0","7",0
+"REPT","Elseya latisternum","Sawshell Turtle",".",".","26",0
+"REPT","Emydura macquarii","Krefft's RiverTurtle",".",".","30",0
+"REPT","Eulamprus brachysoma",".","6.7","0",".",0
+"REPT","Eulamprus frerei",".","97.2",".",".",1
+"REPT","Eulamprus quoyii","Eastern Water Skink","27.6","0",".",0
+"REPT","Eulamprus tigrinus",".","10.7","0",".",1
+"REPT","Furina barnardi","Yellow-naped Snake",".",".",".",0
+"REPT","Furina ornata","Orange-naped Snake",".",".",".",0
+"REPT","Furina tristis","Brown-headed Snake",".",".",".",0
+"REPT","Glaphyromorphus clandestinus","Mt Elliot skink",".",".",".",1
+"REPT","Glaphyromorphus crassicaudus",".",".",".",".",0
+"REPT","Glaphyromorphus fuscicaudis","Grey-tailed Skink","8.8","0",".",1
+"REPT","Glaphyromorphus mjobergi",".","9.4","0",".",1
+"REPT","Gnypetoscincus queenslandiae","Prickly Forest Skink","6.6","0",".",1
+"REPT","Hemiaspis signata","Black-bellied Swamp Snake","231","0",".",0
+"REPT","Hypsilurus boydii","Boyd's Forest Dragon","131.8","0",".",1
+"REPT","Lampropholis coggeri",".","1.2","0",".",1
+"REPT","Lampropholis delicata",".",".",".",".",0
+"REPT","Lampropholis mirabilis",".","1.7",".",".",1
+"REPT","Lampropholis robertsi",".","2","0",".",1
+"REPT","Menetia koshlandae",".",".",".",".",0
+"REPT","Morelia kinghorni","Amethystine Python","4000","0","20",0
+"REPT","Morelia spilota","Jungle Carpet Python","2920","0","14",0
+"REPT","Nactus cheverti",".","66.1","0","10",0
+"REPT","Phyllurus amnicola","Mt.Elliot Leaf-tail gecko",".",".",".",1
+"REPT","Phyllurus gulbaru","Gulbaru Gecko",".",".",".",1
+"REPT","Physignathus lesueurii","Eastern Water Dragon","60.7","0","13",0
+"REPT","Pseudechis porphyriacus","Red-bellied Black Snake","1700","0","12",0
+"REPT","Ramphotyphlops affinis",".",".",".",".",0
+"REPT","Ramphotyphlops broomi",".",".",".",".",0
+"REPT","Ramphotyphlops ligatus",".",".",".",".",0
+"REPT","Ramphotyphlops polygrammicus",".","85.1","0",".",0
+"REPT","Ramphotyphlops proximus",".",".",".",".",0
+"REPT","Ramphotyphlops robertsi",".",".",".",".",1
+"REPT","Ramphotyphlops unguirostris",".",".",".",".",0
+"REPT","Ramphotyphlops wiedii",".",".",".",".",0
+"REPT","Saltuarius cornutus","Northern Leaf-tailed Gecko","38.1","0",".",1
+"REPT","Saproscincus basiliscus",".","1.5","1",".",1
+"REPT","Saproscincus czechurai","Czechura's Litter Skink","0.8","1",".",1
+"REPT","Saproscincus lewisi",".","1.2","0",".",1
+"REPT","Saproscincus tetradactylus","Four-toed Litter Skink","0.6","0",".",1
+"REPT","Stegonotus cucullatus","Slaty-grey Snake","1500","0",".",0
+"REPT","Techmarscincus jigurru","Bartle Frere Skink","5.5",".",".",1
+"REPT","Tropidechis carinatus","Rough-scaled Snake",".",".",".",0
+"REPT","Tropidonophis mairii","Keelback",".",".",".",0
+"REPT","Varanus scalaris","Spotted Tree Monitor","57.2","0","8",0
+"REPT","Varanus tristis",".",".",".","8",0
+"REPT","Varanus varius","Lace Monitor",".",".","15",0
+"REPT","Vermicella annulata","Bandy Bandy",".","1","15",0

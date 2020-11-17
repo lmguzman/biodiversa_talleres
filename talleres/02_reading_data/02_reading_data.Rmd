@@ -24,11 +24,44 @@ Before loading this datset, which is in csv format, click on the data called  "a
 Now we are ready to read in the data. 
 
 Note, data origin http://esapubs.org/archive/ecol/E091/181/default.htm#data
+https://ecologicaldata.org
+
+
+Juan, should we translate the df to spanish?
+```{r}
+australian_verts <- read.csv("australian_vertebrates.csv")
+
+head(australian_verts)
+
+```
+
+## Data frames
+
+The dataset you just loaded is a data frame. A data frame consists of multiple columns and rows. In a data frame, each column has to be the same 'type', but not all the columns need to be the same. 
+
+# Do we have more birds or reptiles in our dataset?
+
+## Packages
+
+In order to answer this question we can plot our data using bar graphs. In a bar graph we have different categories on the x-axis, and the count for each category.
+
+A package that is very practical and produces beautiful plots is `ggplot2`. As you recall, a package is a set of functions that are 'packaged' together. First you will to instal this package, you only need to install the package once. You can use the following function:
+
+```{r eval = FALSE}
+install.packages('ggplot2')
+```
+
+Once you have installed it, you will need to 'load it'. Loading it makes the functions available for you to use. You will need to load it every time you want to use the functions. 
+
+```{r message=FALSE}
+library(ggplot2)
+```
+
+## Bar plots
 
 ```{r}
-austrlian_verts <- read.csv("spp_data.csv")
 
-austrlian_verts
+ggplot(data = australian_verts) + geom_bar(aes(x = TAXA))
 
 ```
 
