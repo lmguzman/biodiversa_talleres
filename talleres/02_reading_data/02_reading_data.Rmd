@@ -29,7 +29,7 @@ https://ecologicaldata.org
 
 Juan, should we translate the df to spanish?
 ```{r}
-australian_verts <- read.csv("australian_vertebrates.csv")
+australian_verts <- read.csv("australian_vertebrates.csv", na.strings = ".")
 
 head(australian_verts)
 
@@ -39,11 +39,7 @@ head(australian_verts)
 
 The dataset you just loaded is a data frame. A data frame consists of multiple columns and rows. In a data frame, each column has to be the same 'type', but not all the columns need to be the same. 
 
-# Do we have more birds or reptiles in our dataset?
-
 ## Packages
-
-In order to answer this question we can plot our data using bar graphs. In a bar graph we have different categories on the x-axis, and the count for each category.
 
 A package that is very practical and produces beautiful plots is `ggplot2`. As you recall, a package is a set of functions that are 'packaged' together. First you will to instal this package, you only need to install the package once. You can use the following function:
 
@@ -57,13 +53,49 @@ Once you have installed it, you will need to 'load it'. Loading it makes the fun
 library(ggplot2)
 ```
 
+# Do we have more birds or reptiles in our dataset?
+
 ## Bar plots
 
+In order to answer this question we can plot our data using bar graphs. In a bar graph we have a categorical variable on the x-axis, and the count for each category on the y-axis.
+
+Since we want to count the number of birds and the number of reptiles, we can use a bar graph to visualize this differnece.
+
 ```{r}
-
 ggplot(data = australian_verts) + geom_bar(aes(x = TAXA))
-
 ```
 
 
+# Are there more endemic birds in Australia than reptiles?
 
+Based on the previous graph, we can fill the bars depending on the number of endemic species in each taxa. We can easily do that by filling in the bar based on the endemic status.
+
+```{r}
+ggplot(data = australian_verts) + geom_bar(aes(x = TAXA, fill = factor(endemic)))
+```
+
+# What is the distribution of life span of Australian vertebrates?
+
+In this question, our variable of interest is life span, which is a continous variable. As a result, we can't use bar graphs. If we want to see the distribution of a continous variable a useful graph is a histogram.
+
+```{r warning=FALSE}
+ggplot(data = australian_verts) + geom_histogram(aes(x = max_lifespan))
+```
+
+Notice that the distribution of life spans is right skewed, meaning that very few species have a long life span, while lots of species have short life spans.
+
+# Do frogs have a longer life span than reptiles?
+
+In order to answer this question we have to consider the two variables of interest. As in the previous questions, we are interested in the differnet taxa, which is a categorical variable. In addition, we are interested in life span which is a continous variable.
+
+We have two options when we want to plot these data, we can do multiple histograms (i.e. a histogram for every category).
+
+```{r warning=FALSE}
+ggplot(data = australian_verts) + geom_histogram(aes(x = max_lifespan)) + facet_wrap(~TAXA, ncol =1)
+```
+
+Another option for this combination of variables is a box plot. A box plot shows the categories on the x-axis, and the distribution of the data on the y-axis. The centre of the boxplot represents the median and the box shows the 1st and 3rd quantiles.
+
+```{r warning=FALSE}
+ggplot(data = australian_verts) + geom_boxplot(aes(x = TAXA, y = max_lifespan)) 
+```
