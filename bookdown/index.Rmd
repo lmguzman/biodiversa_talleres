@@ -1,0 +1,19 @@
+--- 
+title: "Data Science for Conservation"
+author: "Laura Melissa Guzman & Juan Zuloaga"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This book has a series of workshops for learning data science that will be useful for conservation practitioners and researchers"
+---
+
+# About us
+
+This book has a series of workshops for learning data science that will be useful for conservation practitioners and researchers. 
+
+Logo of ecodiversa
